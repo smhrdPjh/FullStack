@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:id="@+id/imgFish"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_icon_cook" />
+
+    <TextView
+        android:id="@+id/tvCook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/imgFish"
+        app:layout_constraintStart_toStartOf="@+id/imgFish"
+        app:layout_constraintTop_toBottomOf="@+id/imgFish" />
+
+    <ImageView
+        android:id="@+id/imgMark"
+        android:layout_width="24dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvCook"
+        app:layout_constraintStart_toStartOf="@+id/tvCook"
+        app:layout_constraintTop_toBottomOf="@+id/tvCook"
+        app:srcCompat="@drawable/bookmark_white" />
+</androidx.constraintlayout.widget.ConstraintLayout>
