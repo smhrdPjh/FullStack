@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction().replace(
                         R.id.fl,
                         Fragment1()
+
                     ).commit()
                 }
                 R.id.tab2 ->{
@@ -83,7 +84,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.tab5 ->{
                     supportFragmentManager.beginTransaction().replace(
                         R.id.fl,
-                        Fragment5()
+                        //Fragment5()
+                    ChatFragment()
                     ).commit()
                 }
 
