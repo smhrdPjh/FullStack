@@ -83,9 +83,11 @@ class ListAdapter(val context: Context, val list : ArrayList<ListVO>, var keyDat
         //클릭했을 때 색깔을 바꾸면 기존에 있던 북마크는 색이 안칠해져있음
         // adapter가 실행이 되는 순간 북마크로 있던 데이터들은 바로 색칠 될 수 있게
         if(bookmarkList.contains(keyData[position])){
-            holder.imgBookMark.setImageResource(R.drawable.bookmark_white)
-        }else{
+
             holder.imgBookMark.setImageResource(R.drawable.bookmark_color)
+        }else{
+            holder.imgBookMark.setImageResource(R.drawable.bookmark_white)
+
 
         }
 

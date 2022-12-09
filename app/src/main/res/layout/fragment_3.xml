@@ -9,7 +9,7 @@
     tools:context=".Fragment.Fragment3">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/boardRv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
@@ -32,5 +32,5 @@
         android:text="글쓰기"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+        app:layout_constraintTop_toBottomOf="@+id/boardRv" />
 </androidx.constraintlayout.widget.ConstraintLayout>
